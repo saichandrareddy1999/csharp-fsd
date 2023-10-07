@@ -10,8 +10,6 @@ namespace introduction
         {
             Console.WriteLine("Hello Sai !!!");
             Console.ReadLine();
-            Console.ReadLine();
-            Console.ReadLine();
         }
     }
 }
