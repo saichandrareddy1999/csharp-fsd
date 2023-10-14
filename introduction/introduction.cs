@@ -18,13 +18,12 @@ namespace introduction
         {
             Console.WriteLine(message);
         }
-        public static void Main()
-        {
-            PrintDelegate p = new PrintDelegate(Print);
-            p("hello");
-            
-            Print("hi");
-            Console.ReadLine();
-        }
+        //public static void Main()
+        //{
+        //    PrintDelegate p = new PrintDelegate(Print);
+        //    p("hello");            
+        //    Print("hi");
+        //    Console.ReadLine();
+        //}
     }
 }
