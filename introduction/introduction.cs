@@ -21,8 +21,7 @@ namespace introduction
         public static void Main()
         {
             PrintDelegate p = new PrintDelegate(Print);
-            p("hello");
-            
+            p("hello");            
             Print("hi");
             Console.ReadLine();
         }
